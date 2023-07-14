@@ -11,14 +11,11 @@
             "id": "230a1fded9b2c49f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "canvas/apollo.canvas",
-                "viewState": {
-                  "x": 5450.068417424047,
-                  "y": 5331.0284780325,
-                  "zoom": -1.285180559158325
-                }
+                "file": "start/the least trimmed squares regression method.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "start/the least trimmed squares regression method.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "start/the least trimmed squares regression method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "canvas/apollo.canvas"
+                "file": "start/the least trimmed squares regression method.md"
               }
             }
           },
@@ -164,6 +161,31 @@
   },
   "active": "230a1fded9b2c49f",
   "lastOpenFiles": [
+    "point cloud/基于2.5D map计算网格内点的表面梯度.md",
+    "canvas/apollo.canvas",
+    "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
+    "canvas",
+    "start/端到端学习.md",
+    "point cloud/表面梯度.md",
+    "deep learning.canvas",
+    "daily note/2023-07-11.md",
+    "daily note/2023-07-04.md",
+    "daily note/2023-06-28.md",
+    "daily note/2023-06-20.md",
+    "daily note/2023-06-19.md",
+    "daily note/2023-06-15.md",
+    "daily note/2023-06-13.md",
+    "daily note/2023-06-12.md",
+    "daily note/2023-06-06.md",
+    "daily note/2023-06-05.md",
+    "daily note/2023-06-03.md",
+    "daily note/2023-05-25.md",
+    "daily note/2023-05-23.md",
+    "daily note/2023-05-22.md",
+    "daily note/2023-05-19.md",
+    "apollo.canvas",
+    "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
+    "Excalidraw/Drawing 2023-06-26 14.12.44.excalidraw.md",
     "start/the least trimmed squares regression method.md",
     "start/SSD- Single Shot MultiBox Detector.pdf",
     "start/spatial resolution.md",
@@ -173,32 +195,9 @@
     "start/Road-Segmentation based Curb Detection Method for Self-driving via a 3D-LiDAR Sensor.pdf",
     "start/3D LiDAR based DrivableRoad Region Detection for Autonomous Vehicles.md",
     "start/残差和.md",
-    "start/超参数.md",
-    "start/大津算法.md",
-    "start/负样本.md",
-    "start/端到端学习.md",
-    "start/高程.md",
-    "start/高度.md",
-    "start/交叉熵损失函数.md",
-    "start/占据网格地图.md",
     "start/LiDAR camera fusion for road detection.pdf",
     "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
-    "start/Hough based methods.md",
-    "start/Detection head.md",
-    "start/concatenation.md",
-    "point cloud/make_extra_network_input_kernel().md",
-    "point cloud/doNMSCuda().md",
     "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
-    "point cloud/无线电波.md",
-    "point cloud/可见光.md",
-    "point cloud/激光雷达感知模块项目文档.md",
-    "point cloud/激光雷达感知模块配置文档.md",
-    "point cloud/激光.md",
-    "point cloud/基于2.5D map计算网格内点的表面梯度.md",
-    "canvas/apollo.canvas",
-    "canvas",
-    "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
-    "deep learning.canvas",
     "apollo.canvas.zip",
     "apollo.canvas.cpgz",
     "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
