@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "theme": "system",
+  "baseFontSize": 13,
+  "enabledCssSnippets": [
+    "page-width"
+  ]
+}

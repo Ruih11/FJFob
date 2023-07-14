@@ -1,0 +1,1 @@
+LiDAR sensor does not require any steering system to emit laser signals across the FoV. Instead, it uses a flash of light to illuminate the entire environment while photo-detectors collect the back-scattered light. By simultaneously sharing the light source across all the FoV, capturing data results in a faster operation, making these sensors highly immune to light distortion 

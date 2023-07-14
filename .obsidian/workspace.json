@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "c87086e6cf2f674d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbad8b9ea1d1c3ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6abf277c845a843e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "apollo.canvas",
+                "viewState": {
+                  "x": 6099.622388981439,
+                  "y": 11775.024014787396,
+                  "zoom": -2.555962398449584
+                }
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae94f8c7bad86eea",
+    "type": "split",
+    "children": [
+      {
+        "id": "3da54419b2795bb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ad28d41b5239252",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81dd919cbe3a87f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "680899a1e2586b75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c7815b91d911e1a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "27338383aee796ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e17d99ab91be3cf0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "apollo.canvas",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6435a76080e32bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "apollo.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c1545d23f4fa72af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "866b3fea591322e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "apollo.canvas"
+              }
+            }
+          },
+          {
+            "id": "c93ba88296ba774e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "6abf277c845a843e",
+  "lastOpenFiles": [
+    "apollo.canvas.zip",
+    "point cloud/PreprocessPoints preprocess().md",
+    "apollo.canvas",
+    "point cloud/Preprocess()-Detect().md",
+    "point cloud/Preprocess().md",
+    "point cloud/TersorRT C++ API.md",
+    "point cloud/test.md",
+    "point cloud/ComputePolygon2D().md",
+    "point cloud/doAnchorMaskCuda().md",
+    "point cloud/Detect().md",
+    "point cloud/ComputeOtherObjectInformation().md",
+    "point cloud/Build().md",
+    "point cloud/ComputePolygonSizeCenter().md",
+    "point cloud/scatter_kernel().md",
+    "point cloud/doScatterCuda().md",
+    "point cloud/make_pillar_histo_kernel().md",
+    "point cloud/make_extra_network_input_kernel().md",
+    "point cloud/make_pillar_feature_kernel().md",
+    "point cloud/make_pillar_index_kernel().md",
+    "point cloud/make_anchor_mask_kernel().md",
+    "point cloud/scan_x().md",
+    "point cloud/devIoU().md",
+    "point cloud/nms_kernel().md",
+    "point cloud/doNMSCuda().md",
+    "point cloud/generateAnchors().md",
+    "point cloud/sort_boxes_by_indexes_kernel().md",
+    "point cloud/filter_kernel().md",
+    "apollo.canvas.cpgz",
+    "start/SSD- Single Shot MultiBox Detector.pdf",
+    "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
+    "Excalidraw",
+    "attachments/Pasted image 20230621162459.png",
+    "start/3D LiDAR based Drivable Road Region Detection for Autonomous Vehicles.pdf",
+    "deep learning.canvas",
+    "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
+    "point cloud/Fast_segmentation_of_3D_point_clouds_for_ground_vehicles.pdf",
+    "point cloud/VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION.pdf",
+    "point cloud/未确认 33580.crdownload",
+    "point cloud/Book_Deep Learning_Ian Goodfellow.pdf",
+    "attachments/Pasted image 20230602151010.png",
+    "attachments/Pasted image 20230601150005.png",
+    "attachments/Pasted image 20230531163545.png",
+    "attachments/Pasted image 20230531153453.png",
+    "attachments/Pasted image 20230531143958.png",
+    "attachments/Pasted image 20230531141306.png",
+    "attachments/Pasted image 20230531135329.png",
+    "attachments/Pasted image 20230531091327.png",
+    "attachments/Pasted image 20230531091029.png"
+  ]
+}
