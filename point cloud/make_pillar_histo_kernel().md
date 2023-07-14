@@ -24,7 +24,7 @@ __global__ void make_pillar_histo_kernel(
   int z_coor = floor((dev_points[th_i * NUM_BOX_CORNERS + 2] - MIN_Z_RANGE) /
                      PILLAR_Z_SIZE);
 //GRID_X_SIZE:number of pillars in x-coordinate
-//对于索引在有效范围内的pillar
+//对于索引在有效范围内的pillar（有效范围指提前设定过的三个方向上的最大格数GRID_X_SIZE：x方向最多格数）
   if (x_coor >= 0 && x_coor < GRID_X_SIZE && y_coor >= 0 &&
       y_coor < GRID_Y_SIZE && z_coor >= 0 && z_coor < GRID_Z_SIZE) {
     

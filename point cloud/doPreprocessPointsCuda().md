@@ -17,8 +17,8 @@ void PreprocessPointsCuda::doPreprocessPointsCuda(
   GPU_CHECK(cudaMemset(dev_pillar_count_, 0, sizeof(int)));
 
   //DIVUP()除法向上取整
-  //NUM_THREADS_:number of threads when launching cuda kernel
-  //num_block:总点数除运行核函数需要的线程数是需要使用的线程块数量，向上取整确保数量足够
+  //NUM_THREADS_:number of threads when launching cuda kernel，是block的大小，就是线程的数量
+  //num_block:是grid的大小，即block的数量。总点数除运行核函数需要的线程数是需要使用的线程块数量，向上取整确保数量足够
   int num_block = DIVUP(in_num_points, NUM_THREADS_);
   make_pillar_histo_kernel<<<num_block, NUM_THREADS_>>>(
       dev_points, dev_pillar_x_in_coors_, dev_pillar_y_in_coors_,
