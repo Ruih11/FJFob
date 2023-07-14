@@ -2,7 +2,6 @@
 tags: function
 ---
 /modules/perception/lidar/lib/detection/lidar_point_pillars/anchor_mask_cuda.cu
-给有点的锚框一个标记
 ```cpp
 void AnchorMaskCuda::doAnchorMaskCuda(
     int* dev_sparse_pillar_map, int* dev_cumsum_along_x,

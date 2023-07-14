@@ -2,6 +2,9 @@
 tags: function
 ---
 /modules/perception/lidar/lib/detection/lidar_point_pillars/scatter_cuda.cu
+输入：pfe的输出：每个柱64个特征值
+过程：以二维索引为索引，将特征散布在二维伪图像中
+输出：伪图像
 生成伪图像
 
 ```cpp

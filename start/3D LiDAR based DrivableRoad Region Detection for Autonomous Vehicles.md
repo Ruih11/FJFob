@@ -2,9 +2,7 @@
 
 原文[[3D LiDAR based Drivable Road Region Detection for Autonomous Vehicles.pdf]]
 
-# 待办
-- [ ] 图例说明diaparity[[2023-05-24]]
-- [ ] 补充文章的研究问题、实现场景[[2023-05-24]]
+
 # Research Question
 a efficient non-data-driven method to segment the point cloud into clusters of drivable road region and obstacles
 将点云识别为具体路况和障碍物的高效的非数据驱动方法

@@ -8,16 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6abf277c845a843e",
+            "id": "230a1fded9b2c49f",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "apollo.canvas",
+                "file": "canvas/apollo.canvas",
                 "viewState": {
-                  "x": 6099.622388981439,
-                  "y": 11775.024014787396,
-                  "zoom": -2.555962398449584
+                  "x": 5450.068417424047,
+                  "y": 5331.0284780325,
+                  "zoom": -1.285180559158325
                 }
               }
             }
@@ -69,13 +69,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "c7815b91d911e1a1",
@@ -91,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apollo.canvas",
+                "file": "canvas/apollo.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apollo.canvas",
+                "file": "canvas/apollo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apollo.canvas"
+                "file": "canvas/apollo.canvas"
               }
             }
           },
@@ -164,47 +162,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6abf277c845a843e",
+  "active": "230a1fded9b2c49f",
   "lastOpenFiles": [
-    "apollo.canvas.zip",
-    "point cloud/PreprocessPoints preprocess().md",
-    "apollo.canvas",
-    "point cloud/Preprocess()-Detect().md",
-    "point cloud/Preprocess().md",
-    "point cloud/TersorRT C++ API.md",
-    "point cloud/test.md",
-    "point cloud/ComputePolygon2D().md",
-    "point cloud/doAnchorMaskCuda().md",
-    "point cloud/Detect().md",
-    "point cloud/ComputeOtherObjectInformation().md",
-    "point cloud/Build().md",
-    "point cloud/ComputePolygonSizeCenter().md",
-    "point cloud/scatter_kernel().md",
-    "point cloud/doScatterCuda().md",
-    "point cloud/make_pillar_histo_kernel().md",
-    "point cloud/make_extra_network_input_kernel().md",
-    "point cloud/make_pillar_feature_kernel().md",
-    "point cloud/make_pillar_index_kernel().md",
-    "point cloud/make_anchor_mask_kernel().md",
-    "point cloud/scan_x().md",
-    "point cloud/devIoU().md",
-    "point cloud/nms_kernel().md",
-    "point cloud/doNMSCuda().md",
-    "point cloud/generateAnchors().md",
-    "point cloud/sort_boxes_by_indexes_kernel().md",
-    "point cloud/filter_kernel().md",
-    "apollo.canvas.cpgz",
+    "start/the least trimmed squares regression method.md",
     "start/SSD- Single Shot MultiBox Detector.pdf",
+    "start/spatial resolution.md",
+    "start/Sobel梯度算子.md",
+    "start/Single Shot Detector.md",
+    "start/RG-FCN.md",
+    "start/Road-Segmentation based Curb Detection Method for Self-driving via a 3D-LiDAR Sensor.pdf",
+    "start/3D LiDAR based DrivableRoad Region Detection for Autonomous Vehicles.md",
+    "start/残差和.md",
+    "start/超参数.md",
+    "start/大津算法.md",
+    "start/负样本.md",
+    "start/端到端学习.md",
+    "start/高程.md",
+    "start/高度.md",
+    "start/交叉熵损失函数.md",
+    "start/占据网格地图.md",
+    "start/LiDAR camera fusion for road detection.pdf",
+    "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
+    "start/Hough based methods.md",
+    "start/Detection head.md",
+    "start/concatenation.md",
+    "point cloud/make_extra_network_input_kernel().md",
+    "point cloud/doNMSCuda().md",
+    "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
+    "point cloud/无线电波.md",
+    "point cloud/可见光.md",
+    "point cloud/激光雷达感知模块项目文档.md",
+    "point cloud/激光雷达感知模块配置文档.md",
+    "point cloud/激光.md",
+    "point cloud/基于2.5D map计算网格内点的表面梯度.md",
+    "canvas/apollo.canvas",
+    "canvas",
+    "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
+    "deep learning.canvas",
+    "apollo.canvas.zip",
+    "apollo.canvas.cpgz",
     "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
     "Excalidraw",
     "attachments/Pasted image 20230621162459.png",
-    "start/3D LiDAR based Drivable Road Region Detection for Autonomous Vehicles.pdf",
-    "deep learning.canvas",
-    "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
-    "point cloud/Fast_segmentation_of_3D_point_clouds_for_ground_vehicles.pdf",
-    "point cloud/VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION.pdf",
-    "point cloud/未确认 33580.crdownload",
-    "point cloud/Book_Deep Learning_Ian Goodfellow.pdf",
     "attachments/Pasted image 20230602151010.png",
     "attachments/Pasted image 20230601150005.png",
     "attachments/Pasted image 20230531163545.png",
