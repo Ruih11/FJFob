@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fbad8b9ea1d1c3ed",
+        "id": "19e5c4b7ccdb3bf4",
         "type": "tabs",
         "children": [
           {
-            "id": "230a1fded9b2c49f",
+            "id": "da652065ba9962fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "start/the least trimmed squares regression method.md",
-                "mode": "source",
-                "source": false
+                "file": "canvas/apollo.canvas",
+                "viewState": {
+                  "x": 1063.1802002399183,
+                  "y": 4784.661085826524,
+                  "zoom": -0.9376078387101512
+                }
               }
             }
           }
@@ -86,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "start/the least trimmed squares regression method.md",
+                "file": "canvas/apollo.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "start/the least trimmed squares regression method.md",
+                "file": "canvas/apollo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "start/the least trimmed squares regression method.md"
+                "file": "canvas/apollo.canvas"
               }
             }
           },
@@ -159,8 +162,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "230a1fded9b2c49f",
+  "active": "da652065ba9962fd",
   "lastOpenFiles": [
+    "start/the least trimmed squares regression method.md",
     "point cloud/基于2.5D map计算网格内点的表面梯度.md",
     "canvas/apollo.canvas",
     "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
@@ -186,7 +190,6 @@
     "apollo.canvas",
     "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
     "Excalidraw/Drawing 2023-06-26 14.12.44.excalidraw.md",
-    "start/the least trimmed squares regression method.md",
     "start/SSD- Single Shot MultiBox Detector.pdf",
     "start/spatial resolution.md",
     "start/Sobel梯度算子.md",

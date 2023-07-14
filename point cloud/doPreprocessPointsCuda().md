@@ -76,6 +76,6 @@ float* dev_pillar_z：pillar中每个点的z坐标
 float* dev_pillar_i: pillar中每个点的强度
 float* dev_x_coors_for_sub_shaped：pillar的x坐标
 float* dev_y_coors_for_sub_shaped：pillar的y坐标
-float* dev_pillar_feature_mask：pillar掩码，表示点是否有效
+float* dev_pillar_feature_mask：pillar掩码，表示点是否有效,是否没有超出一个柱内点数的限量
 int* dev_sparse_pillar_map：记录存在pillar的grid位置
 int* host_pillar_count：pillar总数
