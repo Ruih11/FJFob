@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "point cloud/nms_kernel().md",
+                "file": "canvas/apollo.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "point cloud/nms_kernel().md",
+                "file": "canvas/apollo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "point cloud/nms_kernel().md"
+                "file": "canvas/apollo.canvas"
               }
             }
           },
@@ -164,9 +164,10 @@
   },
   "active": "48c45dcd397507f0",
   "lastOpenFiles": [
+    "point cloud/激光雷达感知算法.pdf",
+    "canvas/apollo.canvas",
     "point cloud/激光雷达感知算法.pptx",
     "start/Pointpillars slides.md",
-    "canvas/apollo.canvas",
     "daily note/2023-07-17.md",
     "Excalidraw/comparation make_pillar_histo_kernel.md",
     "point cloud/CUDA programming.md",
@@ -203,8 +204,6 @@
     "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
     "apollo.canvas.zip",
     "apollo.canvas.cpgz",
-    "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
-    "Excalidraw",
     "attachments/Pasted image 20230621162459.png",
     "attachments/Pasted image 20230602151010.png",
     "attachments/Pasted image 20230601150005.png",
