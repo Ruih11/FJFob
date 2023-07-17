@@ -16,7 +16,7 @@ __global__ void make_pillar_histo_kernel(
   if (th_i >= num_points) {
     return;
   }
-  //获取pillar的xyz索引
+  //获取该点对应的pillar的xyz索引
   int y_coor = floor((dev_points[th_i * NUM_BOX_CORNERS + 1] - MIN_Y_RANGE) /
                      PILLAR_Y_SIZE);
   int x_coor = floor((dev_points[th_i * NUM_BOX_CORNERS + 0] - MIN_X_RANGE) /
@@ -24,12 +24,11 @@ __global__ void make_pillar_histo_kernel(
   int z_coor = floor((dev_points[th_i * NUM_BOX_CORNERS + 2] - MIN_Z_RANGE) /
                      PILLAR_Z_SIZE);
 //GRID_X_SIZE:number of pillars in x-coordinate
-//对于索引在有效范围内的pillar（有效范围指提前设定过的三个方向上的最大格数GRID_X_SIZE：x方向最多格数）
+//如果该点所在的pillar在有效范围内（有效范围指提前设定过的三个方向上的最大格数GRID_X_SIZE：x方向最多格数）
   if (x_coor >= 0 && x_coor < GRID_X_SIZE && y_coor >= 0 &&
       y_coor < GRID_Y_SIZE && z_coor >= 0 && z_coor < GRID_Z_SIZE) {
     
-    int count =
-        atomicAdd(&pillar_count_histo[y_coor * GRID_X_SIZE + x_coor], 1);
+    int count = atomicAdd(&pillar_count_histo[y_coor * GRID_X_SIZE + x_coor], 1);
     if (count < max_points_per_pillar) {
       int ind = y_coor * GRID_X_SIZE * max_points_per_pillar +
                 x_coor * max_points_per_pillar + count;

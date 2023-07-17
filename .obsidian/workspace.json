@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "19e5c4b7ccdb3bf4",
+        "id": "e3c234f71538ba78",
         "type": "tabs",
         "children": [
           {
-            "id": "da652065ba9962fd",
+            "id": "48c45dcd397507f0",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "canvas/apollo.canvas",
                 "viewState": {
-                  "x": 7278.964674474844,
-                  "y": 8358.120229524968,
-                  "zoom": -0.7401160099109039
+                  "x": 6320.285087562972,
+                  "y": 14625.756654171395,
+                  "zoom": -0.2910327443480505
                 }
               }
             }
@@ -73,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "c7815b91d911e1a1",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "point cloud/nms_kernel().md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "point cloud/nms_kernel().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "canvas/apollo.canvas"
+                "file": "point cloud/nms_kernel().md"
               }
             }
           },
@@ -163,10 +162,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da652065ba9962fd",
+  "active": "48c45dcd397507f0",
   "lastOpenFiles": [
-    "Excalidraw/comparation make_pillar_histo_kernel.md",
+    "point cloud/激光雷达感知算法.pptx",
+    "start/Pointpillars slides.md",
     "canvas/apollo.canvas",
+    "daily note/2023-07-17.md",
+    "Excalidraw/comparation make_pillar_histo_kernel.md",
     "point cloud/CUDA programming.md",
     "start/the least trimmed squares regression method.md",
     "point cloud/基于2.5D map计算网格内点的表面梯度.md",
@@ -195,9 +197,6 @@
     "Excalidraw/Drawing 2023-06-26 14.12.44.excalidraw.md",
     "start/SSD- Single Shot MultiBox Detector.pdf",
     "start/spatial resolution.md",
-    "start/Sobel梯度算子.md",
-    "start/Single Shot Detector.md",
-    "start/RG-FCN.md",
     "start/Road-Segmentation based Curb Detection Method for Self-driving via a 3D-LiDAR Sensor.pdf",
     "start/LiDAR camera fusion for road detection.pdf",
     "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
