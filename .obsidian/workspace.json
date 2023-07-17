@@ -11,14 +11,9 @@
             "id": "48c45dcd397507f0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "canvas/apollo.canvas",
-                "viewState": {
-                  "x": 6320.285087562972,
-                  "y": 14625.756654171395,
-                  "zoom": -0.2910327443480505
-                }
+                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md"
               }
             }
           }
@@ -89,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "canvas/apollo.canvas"
+                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md"
               }
             }
           },
@@ -164,8 +159,13 @@
   },
   "active": "48c45dcd397507f0",
   "lastOpenFiles": [
-    "point cloud/激光雷达感知算法.pdf",
+    "point cloud/NIPS-2015-spatial-transformer-networks-Paper.pdf",
+    "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
+    "attachments/Pasted Image 20230717142407_631.png",
+    "attachments/Pasted Image 20230717142351_288.png",
     "canvas/apollo.canvas",
+    "point cloud/Untitled.md",
+    "point cloud/激光雷达感知算法.pdf",
     "point cloud/激光雷达感知算法.pptx",
     "start/Pointpillars slides.md",
     "daily note/2023-07-17.md",
@@ -195,15 +195,12 @@
     "daily note/2023-05-19.md",
     "apollo.canvas",
     "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
-    "Excalidraw/Drawing 2023-06-26 14.12.44.excalidraw.md",
     "start/SSD- Single Shot MultiBox Detector.pdf",
-    "start/spatial resolution.md",
     "start/Road-Segmentation based Curb Detection Method for Self-driving via a 3D-LiDAR Sensor.pdf",
     "start/LiDAR camera fusion for road detection.pdf",
     "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
     "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
     "apollo.canvas.zip",
-    "apollo.canvas.cpgz",
     "attachments/Pasted image 20230621162459.png",
     "attachments/Pasted image 20230602151010.png",
     "attachments/Pasted image 20230601150005.png",
@@ -211,8 +208,6 @@
     "attachments/Pasted image 20230531153453.png",
     "attachments/Pasted image 20230531143958.png",
     "attachments/Pasted image 20230531141306.png",
-    "attachments/Pasted image 20230531135329.png",
-    "attachments/Pasted image 20230531091327.png",
-    "attachments/Pasted image 20230531091029.png"
+    "attachments/Pasted image 20230531135329.png"
   ]
 }
