@@ -11,29 +11,14 @@
             "id": "48c45dcd397507f0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "1dc46013a63772cc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "point cloud/激光雷达感知算法.pdf"
-              }
-            }
-          },
-          {
-            "id": "dff01ed40791738b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf"
+                "file": "canvas/apollo.canvas",
+                "viewState": {
+                  "x": 5730.542856105712,
+                  "y": 14856.427350862281,
+                  "zoom": -0.1656064251313613
+                }
               }
             }
           }
@@ -105,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
+                "file": "canvas/apollo.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
+                "file": "canvas/apollo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md"
+                "file": "canvas/apollo.canvas"
               }
             }
           },
@@ -180,16 +165,23 @@
   },
   "active": "48c45dcd397507f0",
   "lastOpenFiles": [
-    "point cloud/TensorRT C++ API.md",
-    "Excalidraw/Drawing 2023-07-17 14.22.19.excalidraw.md",
-    "attachments/Pasted Image 20230717152457_744.png",
+    "Excalidraw/pointpillars.excalidraw.md",
+    "point cloud/class PillarFeatureNet.md",
+    "point cloud/1x1 Convolutions Demystified.md",
+    "attachments/Pasted Image 20230718092904_275.png",
     "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
     "point cloud/激光雷达感知算法.pdf",
     "point cloud/NIPS-2015-spatial-transformer-networks-Paper.pdf",
+    "attachments/Pasted Image 20230718091853_338.png",
+    "point cloud/NIPS-2015-spatial-transformer-networks-Paper.md",
+    "canvas/apollo.canvas",
+    "attachments/Pasted image 20230717162132.png",
+    "attachments/Pasted image 20230717162118.png",
+    "attachments/Pasted Image 20230717160727_645.png",
+    "point cloud/TensorRT C++ API.md",
+    "attachments/Pasted Image 20230717152457_744.png",
     "attachments/Pasted Image 20230717142407_631.png",
     "attachments/Pasted Image 20230717142351_288.png",
-    "canvas/apollo.canvas",
-    "point cloud/Untitled.md",
     "point cloud/激光雷达感知算法.pptx",
     "start/Pointpillars slides.md",
     "daily note/2023-07-17.md",
@@ -214,9 +206,6 @@
     "daily note/2023-06-05.md",
     "daily note/2023-06-03.md",
     "daily note/2023-05-25.md",
-    "daily note/2023-05-23.md",
-    "daily note/2023-05-22.md",
-    "daily note/2023-05-19.md",
     "apollo.canvas",
     "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
     "start/SSD- Single Shot MultiBox Detector.pdf",
@@ -225,11 +214,6 @@
     "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
     "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
     "attachments/Pasted image 20230621162459.png",
-    "attachments/Pasted image 20230602151010.png",
-    "attachments/Pasted image 20230601150005.png",
-    "attachments/Pasted image 20230531163545.png",
-    "attachments/Pasted image 20230531153453.png",
-    "attachments/Pasted image 20230531143958.png",
-    "attachments/Pasted image 20230531141306.png"
+    "attachments/Pasted image 20230602151010.png"
   ]
 }

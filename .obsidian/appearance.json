@@ -1,7 +1,7 @@
 {
-  "accentColor": "",
-  "cssTheme": "Minimal",
-  "theme": "system",
+  "accentColor": "#6e75aa",
+  "cssTheme": "",
+  "theme": "moonstone",
   "baseFontSize": 13,
   "enabledCssSnippets": [
     "page-width"
