@@ -3,19 +3,24 @@ tags: function
 ---
 /modules/perception/lidar/lib/detection/lidar_point_pillars/point_pillars_detection.cc
 ```cpp
-void PointPillarsDetection::GetObjects(std::vector<std::shared_ptr<Object>>* objects, const Eigen::Affine3d& pose,
-                                       std::vector<float>* detections) {
+void PointPillarsDetection::GetObjects(std::vector<std::shared_ptr<Object>>* objects, 
+									   const Eigen::Affine3d& pose,
+                                       std::vector<float>* detections//原始检测框
+                                       ) {
   Timer timer;
+  //获取对象池
   int num_objects = detections->size() / kOutputNumBoxFeature;
 
   objects->clear();
   base::ObjectPool::Instance().BatchGet(num_objects, objects);
 
+//遍历检测框
   for (int i = 0; i < num_objects; ++i) {
     auto& object = objects->at(i);
     object->id = i;
 
     // read params of bounding box
+    //读取框的参数
     float x = detections->at(i * kOutputNumBoxFeature + 0);
     float y = detections->at(i * kOutputNumBoxFeature + 1);
     float z = detections->at(i * kOutputNumBoxFeature + 2);

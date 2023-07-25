@@ -82,7 +82,7 @@ ForwardIterator 	last
   int keep_inds[host_filter_count[0]];
   keep_inds[0] = 0;
   int out_num_objects = 0;
-  //对排序后的NMS边界框进行非最大抑制
+  //对排序后的NMS边界框做非最大抑制
   nms_cuda_ptr_->doNMSCuda(host_filter_count[0], dev_sorted_box_for_nms,
                            keep_inds, &out_num_objects);
 

@@ -8,17 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48c45dcd397507f0",
+            "id": "20bbe1476c8b6fb0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "canvas/apollo.canvas",
-                "viewState": {
-                  "x": 5730.542856105712,
-                  "y": 14856.427350862281,
-                  "zoom": -0.1656064251313613
-                }
+                "file": "point cloud/Voxelnet.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -90,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "point cloud/Voxelnet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "canvas/apollo.canvas",
+                "file": "point cloud/Voxelnet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "canvas/apollo.canvas"
+                "file": "point cloud/Voxelnet.md"
               }
             }
           },
@@ -163,9 +160,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48c45dcd397507f0",
+  "active": "20bbe1476c8b6fb0",
   "lastOpenFiles": [
     "Excalidraw/pointpillars.excalidraw.md",
+    "point cloud/Voxelnet.md",
+    "point cloud/Untitled.md",
+    "start/PointNet.pdf",
+    "attachments/Pasted image 20230724160353.png",
+    "attachments/Pasted image 20230724151518.png",
+    "point cloud/Voxelnet.pdf",
+    "point cloud/未确认 853209.crdownload",
+    "canvas/apollo.canvas",
+    "point cloud/激光雷达感知模块项目文档.md",
+    "attachments/点的索引.png",
+    "attachments/Pasted image 20230721085504.png",
+    "attachments/IMG_4882 1.heic",
+    "attachments/IMG_4882.heic",
     "point cloud/class PillarFeatureNet.md",
     "point cloud/1x1 Convolutions Demystified.md",
     "attachments/Pasted Image 20230718092904_275.png",
@@ -174,14 +184,11 @@
     "point cloud/NIPS-2015-spatial-transformer-networks-Paper.pdf",
     "attachments/Pasted Image 20230718091853_338.png",
     "point cloud/NIPS-2015-spatial-transformer-networks-Paper.md",
-    "canvas/apollo.canvas",
     "attachments/Pasted image 20230717162132.png",
     "attachments/Pasted image 20230717162118.png",
     "attachments/Pasted Image 20230717160727_645.png",
     "point cloud/TensorRT C++ API.md",
     "attachments/Pasted Image 20230717152457_744.png",
-    "attachments/Pasted Image 20230717142407_631.png",
-    "attachments/Pasted Image 20230717142351_288.png",
     "point cloud/激光雷达感知算法.pptx",
     "start/Pointpillars slides.md",
     "daily note/2023-07-17.md",
@@ -204,16 +211,7 @@
     "daily note/2023-06-12.md",
     "daily note/2023-06-06.md",
     "daily note/2023-06-05.md",
-    "daily note/2023-06-03.md",
-    "daily note/2023-05-25.md",
     "apollo.canvas",
-    "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
-    "start/SSD- Single Shot MultiBox Detector.pdf",
-    "start/Road-Segmentation based Curb Detection Method for Self-driving via a 3D-LiDAR Sensor.pdf",
-    "start/LiDAR camera fusion for road detection.pdf",
-    "start/Nonparametric_Technique_Based_High-Speed_Road_Surface_Detection.pdf",
-    "point cloud/A_Floor_and_Obstacle_Height_Map_for_3D_Navigation_of_a_Humanoid_Robot.pdf",
-    "attachments/Pasted image 20230621162459.png",
-    "attachments/Pasted image 20230602151010.png"
+    "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas"
   ]
 }

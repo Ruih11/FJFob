@@ -1,9 +1,11 @@
 {
-  "accentColor": "#6e75aa",
+  "accentColor": "#816ebf",
   "cssTheme": "",
-  "theme": "moonstone",
-  "baseFontSize": 13,
+  "theme": "obsidian",
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "page-width"
-  ]
+  ],
+  "translucency": false,
+  "monospaceFontFamily": "Arial,Inter"
 }
