@@ -41,60 +41,8 @@ bool ObjectBuilder::Build(const ObjectBuilderOptions& options, LidarFrame* frame
 }
 ```
 
-cpp
-// ObjectBuilder类的Build方法,用于构建检测到的对象
-
-// 参数:
-// options - ObjectBuilder的配置选项
-// frame - 输入的Lidar帧数据
-
-// 返回值:
-// 构建是否成功的bool值
-
-bool ObjectBuilder::Build(const ObjectBuilderOptions& options, LidarFrame* frame) {
-
-  // 1. 检查Lidar帧是否为空,如果为空直接返回false
-  if (frame == nullptr) { 
-    return false;
-  }
-  
-  // 2. 获取帧中的分割对象列表
-  std::vector<ObjectPtr>& objects = frame->segmented_objects;
-
-  // 3. 遍历对象,为每个对象赋id和计算相关几何特征
-  for (size_t i = 0; i < objects.size(); ++i) {
-    if (objects[i]) {
-      objects[i]->id = static_cast<int>(i); // 赋予对象id
-      ComputePolygon2D(objects[i]); // 计算2D多边形
-      ComputePolygonSizeCenter(objects[i]); // 计算大小和中心点
-      ComputeOtherObjectInformation(objects[i]); // 其他信息
-    }
-  }
-
-  // 4. 根据距离对对象进行过滤
-  const int filter_dist_x = 50; 
-  const int filter_dist_y = 30;
-  
-  size_t count = 0;
-  for (size_t i = 0; i < objects.size(); ++i) {
-    
-    // 只保留距离范围内的对象
-    if (objects[i]->anchor_point[0] < filter_dist_x  
-        && objects[i]->anchor_point[0] > -filter_dist_x
-        && objects[i]->anchor_point[1] < filter_dist_y
-        && objects[i]->anchor_point[1] > -filter_dist_y) {
-        
-      // 直接覆盖不符合条件的对象  
-      if (count != i) {
-        objects[count] = objects[i]; 
-      }
-      ++count;
-    }
-  }
-  
-  // 缩容容器
-  objects.resize(count);
-
-  // 5. 返回构建成功
-  return true; 
-}
+1. 为每个检测到的object赋予id,方便追踪等后续使用
+2. 计算每个object的2D多边形轮廓(ComputePolygon2D)
+3. 计算每个object的多边形面积、大小、中心点等信息(ComputePolygonSizeCenter)
+4. 计算每个object的一些其他信息,如速度、加速度等(ComputeOtherObjectInformation)
+5. 根据anchor点位置进行距离过滤,去除距离车身过近的object. resize对象列表,移除被过滤的object

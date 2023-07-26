@@ -49,7 +49,7 @@ __global__ void make_pillar_index_kernel(
     dev_x_coors_for_sub[count] = x * PILLAR_X_SIZE + 0.1f;
     //pillar的y坐标
     dev_y_coors_for_sub[count] = y * PILLAR_Y_SIZE + -39.9f;
-    //
+    //在本函数中对于没有点的格不做处理，此数组给有点存在的pillar赋值1，索引顺序是pillar的索引顺序
     dev_sparse_pillar_map[y * NUM_INDS_FOR_SCAN + x] = 1;
   }
 }
@@ -70,4 +70,7 @@ const float PILLAR_Y_SIZE 单元格y方向的大小
 const int NUM_INDS_FOR_SCAN 
 输出参数：
 float* dev_num_points_per_pillar：数组，每个格内的点数
-int* dev_sparse_pillar_map
+int* dev_sparse_pillar_map 
+输出
+dev_x_coors_for_sub pillar的x坐标
+dev_y_coors_for_sub pillar的y坐标

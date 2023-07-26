@@ -20,6 +20,9 @@ tags: [excalidraw]
 b1ee0f351223d9e3eb5e1005cffec5feb807d51f: [[Pasted Image 20230718091853_338.png]]
 1e887ba1e1862f8e30b8315bcf1a2d94435a9be8: [[Pasted Image 20230718092904_275.png]]
 4b8572b592da4295c03007201c74137b921ee724: [[class PillarFeatureNet]]
+b0aa13de7f0ce6fb532e427427b434b742ad5d66: [[Pasted Image 20230725144831_007.png]]
+cc3b65ab9efbfa03adb35125ea61ef1495d5927e: [[Pasted Image 20230725144901_015.png]]
+7b3c6ade491134fda011e9ac779560b542c1f413: [[Pasted Image 20230725150846_368.png]]
 
 %%
 # Drawing
@@ -388,6 +391,138 @@ b1ee0f351223d9e3eb5e1005cffec5feb807d51f: [[Pasted Image 20230718091853_338.png]
 				1,
 				1
 			]
+		},
+		{
+			"id": "bMqSgFf2Ctngv3uS3zvox",
+			"type": "image",
+			"x": 1294.0417403614688,
+			"y": -273.09702625831653,
+			"width": 1082,
+			"height": 340,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1442478524,
+			"version": 46,
+			"versionNonce": 1967394108,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1690267710368,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "b0aa13de7f0ce6fb532e427427b434b742ad5d66",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "8_qLoJormcrXXIsfVTIQP",
+			"type": "image",
+			"x": 930.3269956865568,
+			"y": 1234.3329875419602,
+			"width": 564,
+			"height": 346,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 456495932,
+			"version": 88,
+			"versionNonce": 1682139140,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1690268897327,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "cc3b65ab9efbfa03adb35125ea61ef1495d5927e",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "W9TU6zSloBjEv8VhBy1MF",
+			"type": "image",
+			"x": 934.2770127500548,
+			"y": 717.3405020134882,
+			"width": 1026,
+			"height": 386,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 52414340,
+			"version": 131,
+			"versionNonce": 2089850500,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1690268924991,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "7b3c6ade491134fda011e9ac779560b542c1f413",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "z0vxrp4uwMEHgnLfSnyTx",
+			"type": "image",
+			"x": 1317.6779010757546,
+			"y": 175.7244023131119,
+			"width": 616,
+			"height": 342,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 400704516,
+			"version": 19,
+			"versionNonce": 1784040124,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1690267722155,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "cb7775d91db4127173fc39b9d0a9b4b2daa1cd75",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -405,10 +540,10 @@ b1ee0f351223d9e3eb5e1005cffec5feb807d51f: [[Pasted Image 20230718091853_338.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1773.1262145403016,
-		"scrollY": 3608.857931206233,
+		"scrollX": 514.2100005581307,
+		"scrollY": 898.2700262977487,
 		"zoom": {
-			"value": 0.30000000000000004
+			"value": 0.2830103334784508
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

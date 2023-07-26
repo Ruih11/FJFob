@@ -8,7 +8,7 @@ void AnchorMaskCuda::doAnchorMaskCuda(
     int* dev_cumsum_along_y, const float* dev_box_anchors_min_x,
     const float* dev_box_anchors_min_y, const float* dev_box_anchors_max_x,
     const float* dev_box_anchors_max_y, int* dev_anchor_mask) {
-//调用scan_x()核函数，与算法无关，与cuda计算相关。后续算法实现中没有使用
+//调用scan_x()核函数
   scan_x<<<NUM_INDS_FOR_SCAN_, NUM_INDS_FOR_SCAN_ / 2,
            NUM_INDS_FOR_SCAN_ * sizeof(int)>>>(
       dev_cumsum_along_x, dev_sparse_pillar_map, NUM_INDS_FOR_SCAN_);

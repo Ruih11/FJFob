@@ -4,22 +4,86 @@
     "type": "split",
     "children": [
       {
-        "id": "e3c234f71538ba78",
+        "id": "4db63ad4935cbb35",
         "type": "tabs",
         "children": [
           {
-            "id": "20bbe1476c8b6fb0",
+            "id": "e2526b07fe3487b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "point cloud/Voxelnet.md",
-                "mode": "source",
-                "source": false
+                "file": "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf"
+              }
+            }
+          },
+          {
+            "id": "4aefc8b5380780e2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "point cloud/Voxelnet.pdf"
+              }
+            }
+          },
+          {
+            "id": "218f636a9cb616b4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "start/SSD- Single Shot MultiBox Detector.pdf"
+              }
+            }
+          },
+          {
+            "id": "7dbdc029893fe398",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "canvas/apollo.canvas",
+                "viewState": {
+                  "x": 4280.261054209322,
+                  "y": 14038.516568215524,
+                  "zoom": -1.2094118886250924
+                }
+              }
+            }
+          },
+          {
+            "id": "f2251899329970c5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "start/PointNet.pdf"
+              }
+            }
+          },
+          {
+            "id": "4a77510a9b5665ba",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "point cloud/Pointnet++.pdf"
+              }
+            }
+          },
+          {
+            "id": "d3ed98637a18851a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "point cloud/second.pdf"
               }
             }
           }
         ],
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -87,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "point cloud/Voxelnet.md",
+                "file": "canvas/apollo.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "point cloud/Voxelnet.md",
+                "file": "canvas/apollo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "point cloud/Voxelnet.md"
+                "file": "canvas/apollo.canvas"
               }
             }
           },
@@ -157,20 +221,30 @@
       "command-palette:Open command palette": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "20bbe1476c8b6fb0",
+  "active": "7dbdc029893fe398",
   "lastOpenFiles": [
+    "start/SSD- Single Shot MultiBox Detector.pdf",
+    "point cloud/Voxelnet.pdf",
+    "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
+    "canvas/apollo.canvas",
+    "point cloud/second.pdf",
+    "point cloud/Pointnet++.pdf",
+    "start/PointNet.pdf",
     "Excalidraw/pointpillars.excalidraw.md",
+    "attachments/Pasted Image 20230725150846_368.png",
+    "attachments/Pasted Image 20230725144901_015.png",
+    "attachments/Pasted Image 20230725144831_007.png",
+    "point cloud/未确认 354980.crdownload",
+    "point cloud/未确认 123027.crdownload",
     "point cloud/Voxelnet.md",
     "point cloud/Untitled.md",
-    "start/PointNet.pdf",
     "attachments/Pasted image 20230724160353.png",
     "attachments/Pasted image 20230724151518.png",
-    "point cloud/Voxelnet.pdf",
     "point cloud/未确认 853209.crdownload",
-    "canvas/apollo.canvas",
     "point cloud/激光雷达感知模块项目文档.md",
     "attachments/点的索引.png",
     "attachments/Pasted image 20230721085504.png",
@@ -179,17 +253,10 @@
     "point cloud/class PillarFeatureNet.md",
     "point cloud/1x1 Convolutions Demystified.md",
     "attachments/Pasted Image 20230718092904_275.png",
-    "start/PointPillars- Fast Encoders for Object Detection from Point Clouds.pdf",
-    "point cloud/激光雷达感知算法.pdf",
-    "point cloud/NIPS-2015-spatial-transformer-networks-Paper.pdf",
     "attachments/Pasted Image 20230718091853_338.png",
     "point cloud/NIPS-2015-spatial-transformer-networks-Paper.md",
     "attachments/Pasted image 20230717162132.png",
-    "attachments/Pasted image 20230717162118.png",
-    "attachments/Pasted Image 20230717160727_645.png",
     "point cloud/TensorRT C++ API.md",
-    "attachments/Pasted Image 20230717152457_744.png",
-    "point cloud/激光雷达感知算法.pptx",
     "start/Pointpillars slides.md",
     "daily note/2023-07-17.md",
     "Excalidraw/comparation make_pillar_histo_kernel.md",
@@ -197,7 +264,6 @@
     "start/the least trimmed squares regression method.md",
     "point cloud/基于2.5D map计算网格内点的表面梯度.md",
     "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
-    "canvas",
     "start/端到端学习.md",
     "point cloud/表面梯度.md",
     "deep learning.canvas",
@@ -210,7 +276,6 @@
     "daily note/2023-06-13.md",
     "daily note/2023-06-12.md",
     "daily note/2023-06-06.md",
-    "daily note/2023-06-05.md",
     "apollo.canvas",
     "Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas"
   ]
