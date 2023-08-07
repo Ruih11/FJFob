@@ -73,7 +73,7 @@ ForwardIterator 	last
 //                       dev_indexes, thrust::greater<float>());
 
   const int num_blocks = DIVUP(host_filter_count[0], NUM_THREADS_);
-  //对过滤后的边界框和方向进行按索引排序（给生成的边界框一个顺序，方便做nms）
+  //对过滤后的边界框和方向进行按索引排序
   sort_boxes_by_indexes_kernel<<<num_blocks, NUM_THREADS_>>>(
       dev_filtered_box, dev_filtered_dir, dev_box_for_nms, dev_indexes,
       host_filter_count[0], dev_sorted_filtered_box, dev_sorted_filtered_dir,

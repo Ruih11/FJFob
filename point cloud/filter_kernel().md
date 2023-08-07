@@ -16,7 +16,7 @@ __global__ void filter_kernel(
     const float* dev_anchors_dz,  // 锚框的高度数组
     const float* dev_anchors_ro,  // 锚点的旋转角度数组
     float* filtered_box,  // 过滤后的边界框数组
-    float* filtered_score,  // 过滤后的得分数组
+    float* filtered_score,  // 过滤后的置信度数组
     int* filtered_dir,  // 过滤后的方向数组
     float* box_for_nms,  // 用于NMS操作的边界框数组
     int* filter_count,  // 过滤计数
