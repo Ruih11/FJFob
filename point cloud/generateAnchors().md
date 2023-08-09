@@ -3,8 +3,7 @@ tags: function
 ---
 modules/perception/lidar/lib/detection/lidar_point_pillars/point_pillars.cc
 ```cpp
-void PointPillars::generateAnchors(float* anchors_px_, float* anchors_py_, float* anchors_pz_, float* anchors_dx_, float* anchors_dy_,
-                                   float* anchors_dz_, float* anchors_ro_) {
+void PointPillars::generateAnchors(float* anchors_px_, float* anchors_py_, float* anchors_pz_, float* anchors_dx_, float* anchors_dy_, float* anchors_dz_, float* anchors_ro_) {
   // zero clear
   for (int i = 0; i < NUM_ANCHOR_; i++) {
     anchors_px_[i] = 0;

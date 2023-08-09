@@ -8,7 +8,7 @@ void PointPillars::convertAnchors2BoxAnchors(float* anchors_px, float* anchors_p
   //定义数组，长度是一半总格数
   float flipped_anchors_dx[NUM_ANCHOR_];
   flipped_anchors_dx[0] = 0;
-  //定义数组，长度是一半总格数
+  //定义数组，宽度是一半总格数
   float flipped_anchors_dy[NUM_ANCHOR_];
   flipped_anchors_dy[0] = 0;
   //遍历锚框
