@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+
         "id": "792fc26a4093e43a",
         "type": "tabs",
         "children": [
@@ -19,15 +20,18 @@
           },
           {
             "id": "ef465083fe0e43a6",
+
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Lidar for autonomous driving.canvas",
                 "viewState": {
+
                   "x": 427.72239649739157,
                   "y": -282.7645906735856,
                   "zoom": -0.9610327562233922
+
                 }
               }
             }
@@ -253,6 +257,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
+
   "active": "1ad28d41b5239252",
   "lastOpenFiles": [
     "point cloud/Pointnet++.pdf",
@@ -310,5 +315,6 @@
     "attachments/Pasted Image 20230725144831_007.png",
     "canvas/Ground Segmentation Methods for AutomotiveLiDAR Sensors.canvas",
     "apollo.canvas"
+
   ]
 }
