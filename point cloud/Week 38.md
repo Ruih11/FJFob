@@ -12,11 +12,11 @@ kanban-plugin: basic
 
 ## to do
 
-- [ ] import custom dataset based on pytorch https://www.learnpytorch.io/04_pytorch_custom_datasets/
 
 
 ## doing
 
+- [ ] import custom dataset based on pytorch https://www.learnpytorch.io/04_pytorch_custom_datasets/
 
 
 ## review

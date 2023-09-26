@@ -4,7 +4,7 @@
 		{"id":"94242d644037d6a0","type":"text","text":"prepare data","x":-1080,"y":-720,"width":160,"height":60},
 		{"id":"6911460054c7c39c","type":"text","text":"build/pick a model","x":-80,"y":-720,"width":221,"height":60},
 		{"id":"8fd4a838399f2c51","type":"text","text":"improve model through experimentation/deployment","x":1880,"y":-720,"width":480,"height":60},
-		{"id":"6ed5c58e8b510f85","type":"file","file":"point cloud/Algorithms.md","x":-80,"y":-440,"width":900,"height":400},
+		{"id":"6ed5c58e8b510f85","type":"file","file":"point cloud/Algorithms.md","x":-80,"y":-440,"width":900,"height":1360},
 		{"id":"d71eaa6a4522cfb6","type":"file","file":"point cloud/Datasets.md","x":-1080,"y":-440,"width":900,"height":400},
 		{"id":"577496a060f97bd9","type":"file","file":"point cloud/Point Cloud.md","x":-1080,"y":40,"width":900,"height":400},
 		{"id":"0d1c642c5b1e738a","type":"file","file":"point cloud/Hardware.md","x":-1080,"y":520,"width":900,"height":400},
